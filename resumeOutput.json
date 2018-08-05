@@ -1,1 +1,232 @@
-[object Object]
+{
+"Results" : [
+{"HireAbilityJSONResults" : [
+{
+"id" : "2916550405613",
+"usageLimitType":"allocation",
+"usageLimit":"150",
+"currentUsage":"96",
+"remainingUsage":"54",
+"accountValidThrough":"08-12-2018",
+
+"GivenName" : "Leo",
+"FamilyName" : "Kodish",
+"FormattedName" : "Leo K. Kodish",
+"DisabilityIndicator" : false,
+"Address" : [
+{
+"CountryCode" : "US",
+"CountrySubDivisionCode" : "HI",
+"CityName" : "Honolulu",
+"PostalCode" : "96821",
+"AddressLine" : "1715 Lihipali Place"
+}
+],
+"Phone" : [
+{
+"Number" : "808 387-2979",
+"Label" : "mobile"
+}
+],
+"Email" : [
+{
+"Address" : "Kodish.15@osu.edu",
+"Label" : "personal"
+}
+],
+"PersonCompetency" : [
+{
+"CompetencyName" : "Business Plan",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Cascading Style Sheets",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Chef",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Communication Skills",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "CSS",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Documentation",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Engineering",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "HyperText Markup Language",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Java Programming Language",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Management",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Matlab",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "MCAD Solidworks",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Microsoft",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Microsoft Excel",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Microsoft PowerPoint",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Microsoft Word",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Notebook Computer",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Programming",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Project Management",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Science",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Software",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Software Development",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Tourism",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Web",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Web Development",
+"CompetencyLevel" : "good"
+},
+{
+"CompetencyName" : "Web Technologies",
+"CompetencyLevel" : "good"
+}
+],
+"EducationOrganizationAttendance" : [
+{
+"School" : "Punahou High School",
+"ReferenceLocation" : {
+"CountryCode" : "US",
+"CountrySubDivisionCode" : "HI",
+"CityName" : "Honolulu"
+},
+"AttendanceStatusCode" : "Prior",
+"AttendanceEndDate" : "2016-01-01",
+"EducationScore" : ["4.00 scale): 3.8"],
+"DegreeDate" : "2016-01-01"
+},
+{
+"School" : "The Ohio State University",
+"ReferenceLocation" : {
+"CountryCode" : "US",
+"CountrySubDivisionCode" : "OH",
+"CityName" : "Columbus"
+},
+"EducationLevel" : [
+{
+"Name" : "bachelors"
+}
+],
+"EducationScore" : ["4.00 scale): 3.397"],
+"DegreeType" : [
+{
+"Name" : "B.S. Computer Science"
+}
+],
+"MajorProgramName" : ["& Engineering"],
+"MinorProgramName" : ["Environmental Science"]
+}
+],
+"PositionHistory" : [
+{
+"Employer" : "Waikiki Improvement Association",
+"PositionTitle" : "Intern",
+"ReferenceLocation" : {
+"CountryCode" : "US",
+"CountrySubDivisionCode" : "HI",
+"CityName" : "Honolulu"
+},
+"StartDate" : "2015-07-01",
+"EndDate" : "2015-08-01",
+"Description" : "- Analyzed spreadsheets containing data pertaining to Waikiki tourism industry and used Microsoft Excel to develop graphs to visually represent trends."
+},
+{
+"Employer" : "Udon Gamadashi Restaurant",
+"PositionTitle" : "Line Chef",
+"ReferenceLocation" : {
+"CountryCode" : "US",
+"CountrySubDivisionCode" : "HI",
+"CityName" : "Honolulu"
+},
+"StartDate" : "2016-06-01",
+"EndDate" : "2016-08-01",
+"Industry" : {
+"Name" : "management"
+},
+"Description" : "- Used both Japanese and English to communicate with Japanese-speaking managers and train English-speaking workers."
+},
+{
+"Employer" : "Datahouse",
+"PositionTitle" : "Software Intern",
+"ReferenceLocation" : {
+"CountryCode" : "US",
+"CountrySubDivisionCode" : "HI",
+"CityName" : "Honolulu"
+},
+"StartDate" : "2017-06-01",
+"EndDate" : "2017-08-01",
+"Industry" : {
+"Name" : "information technology"
+},
+"Description" : "- Worked in teams made up of interns and senior software engineers to develop software solutions for Datahouse clients. - Developed chatbots using Google's Dialogflow platform and pitched them in presentations to local Hawaii companies."
+}
+]
+}
+,{
+"ProcessingErrors" : [{
+"Error" : [{
+"Id" : "2916550405613",
+"ErrorCode" : "",
+"ErrorMessage" : ""}]
+}]
+}
+]
+}]}

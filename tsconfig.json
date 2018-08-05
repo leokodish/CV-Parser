@@ -1,0 +1,140 @@
+{
+  "Results" : [
+    {"HireAbilityJSONResults" : [
+      {
+        "id" : "2914615252313",
+        "usageLimitType":"allocation",
+        "usageLimit":"30",
+        "currentUsage":"4",
+        "remainingUsage":"26",
+        "accountValidThrough":"08-01-2018",
+
+        "GivenName" : "יעקב",
+        "FamilyName" : "ברק",
+        "FormattedName" : "יעקב ברק",
+        "DateOfBirth" : "1985-03-17",
+        "DisabilityIndicator" : false,
+        "Address" : [
+          {
+            "PostalCode" : "668186 0544",
+            "AddressLine" : "רח' אושה 22 קרית מוצקין 26364."
+          }
+        ],
+        "Phone" : [
+          {
+            "Number" : "+972  871911904",
+            "Label" : "personal"
+          }
+        ],
+        "Email" : [
+          {
+            "Address" : "kobibarac@gmail.com",
+            "Label" : "personal"
+          }
+        ],
+        "PersonCompetency" : [
+          {
+            "CompetencyName" : "BASIC Programming Language",
+            "CompetencyLevel" : "good"
+          },
+          {
+            "CompetencyName" : "C# Programming Language",
+            "CompetencyLevel" : "good"
+          },
+          {
+            "CompetencyName" : "C++ Programming Language",
+            "CompetencyLevel" : "good"
+          },
+          {
+            "CompetencyName" : "Unix",
+            "CompetencyLevel" : "good"
+          },
+          {
+            "CompetencyName" : "Visual Basic",
+            "CompetencyLevel" : "good"
+          }
+        ],
+        "WorkEligibility" : [
+          {
+            "CountryCode" : "ישראל",
+            "Permanent" : "true"
+          }
+        ],
+        "EducationOrganizationAttendance" : [
+          {
+            "School" : "",
+            "AttendanceStatusCode" : "Prior",
+            "AttendanceEndDate" : "2009-12-01",
+            "DegreeType" : [
+              {
+                "Name" : "בוגר"
+              }
+            ],
+            "DegreeDate" : "2009-12-01",
+            "MajorProgramName" : ["קורס חובלים במגמת אלקטרוניקה"]
+          },
+          {
+            "School" : "",
+            "DegreeType" : [
+              {
+                "Name" : "בוגר"
+              }
+            ],
+            "MajorProgramName" : ["אורט קרית מוצקין"]
+          },
+          {
+            "School" : "",
+            "DegreeType" : [
+              {
+                "Name" : "בגרות מלאה"
+              }
+            ],
+            "MajorProgramName" : ["שנ\"ל"]
+          }
+        ],
+        "PositionHistory" : [
+          {
+            "Employer" : "ופיקודי במסגרת השירות הצבאי",
+            "StartDate" : "2008-12-01",
+            "EndDate" : "2009-12-01",
+            "Description" : "קצין אלקטרוניקה והגנה של פלגת ספינות מדגם 'להב'. הגדרת תפקיד: הובלת קליטתם של מערכות אלקטרוניות מתקדמות (מע' קשר, מע' ל\"א, מע' בקרה וכד') בספינות הטילים. דאגה לרמתן המקצועית של מחלקות האלקטרוניקה שבפלגה. מנחה מקצועי בתחום האלקטרוניקה של ספינות 'להב'. הכשרת קצינים בחיל הים לתפקוד כקציני אלקטרוניקה בחיל. ניהול ותכנון כוח האדם הנוכחי והעתידי של הפלגה. *"
+          },
+          {
+            "Employer" : "קצין אלקטרוניקה והגנה באוניית חיל הים 'להב'.",
+            "StartDate" : "2007-12-01",
+            "EndDate" : "2008-12-01",
+            "Description" : "הגדרת תפקיד: פיקוד על מוצב ההגנה והלוחמה האלקטרונית ומחלקת אלקטרוניקה בסטי\"ל מדגם סער 5. במסגרת תפקיד זה פיקוד על מחלקת אלקטרוניקה הכוללת כ-25 לוחמי בשירות סדיר וקבע. אחריות על כשירותה הטכנית והמבצעית של הספינה ומערכותיה ועל רמתם המקצועית של חיילי המחלקה. *"
+          },
+          {
+            "Employer" : "קורס פי\"מ (פיקוד ימי מתקדם). הכשרה לתפקיד קצין הגנה ואלקטרוניקה בסט\"יל מדגם 'להב'.",
+            "StartDate" : "2007-06-01",
+            "EndDate" : "2007-12-01"
+          },
+          {
+            "Employer" : "במהלך טקסי יום העצמאות - קבלת אות קצין מצטיין מטעם מפקד חיל הים (במסגרת טקסים אלו קבלת אות קצין מצטיין שייטת 3 וקצין מצטיין בסיס חיפה).",
+            "StartDate" : "2007-04-01",
+            "EndDate" : "2007-04-01"
+          },
+          {
+            "Employer" : "קצין לוחמה אלקטרונית וסגן קצין אלקטרוניקה באוניית חיל הים 'חנית'.",
+            "StartDate" : "2005-06-01",
+            "EndDate" : "2007-06-01",
+            "Description" : "הגדרת תפקיד: פיקוד על מוצב הלוחמה האלקטרונית שבספינה, השתתפות בפיקוד על מחלקת האלקטרוניקה והמשך התקדמות בתחום המקצועי באופן עצמאי מתוקף המסלול להכשרה כקצין אלקטרוניקה."
+          },
+          {
+            "Employer" : "קורס חובלים במגמת אלקטרוניקה מסלול 'להב'.",
+            "StartDate" : "2003-09-01",
+            "EndDate" : "2005-06-01"
+          }
+        ]
+      }
+    ,{
+        "ProcessingErrors" : [{
+          "Error" : [{
+            "Id" : "2914615252313",
+            "ErrorCode" : "",
+            "ErrorMessage" : ""}]
+        }]
+      }
+    ]
+    }]}

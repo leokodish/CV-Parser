@@ -31,24 +31,5 @@ exports.data = methods;
 
 
 
-//         var form = {
-//             product_code: "06cb79cec44eff39d7e694f443c890f0",
-//             document_title: 'attachment',
-//             document: fs.createReadStream(__dirname + '/attachment.txt')
-//         };
-
-//         request.post({
-//             url: 'http://processing.resumeparser.com/requestprocessing.html',
-//             formData: form
-//         }, function (err, httpResponse, body) {
-//             if (err) throw err;
-//             fs.writeFile('resumeOutput.json', body, function(err) {
-//                 if (err) {
-//                     console.log('Error writing to output file: ' + err);
-//                 }
-//             });
-// })
-
-
 
 

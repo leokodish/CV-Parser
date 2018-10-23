@@ -1,14 +1,21 @@
-const express = require('express')
+const express = require('express');
 const app = express()
-const gmailScript = require('./gmailScript.js')
+const email = require('./sendEmail.js');
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+var server = app.listen(3000, function() {
+	console.log('Example app listening on port 3000!');
+	email.data.sendEmail( function() {
+		console.log("draft completed");
+		setTimeout(function() {
+			server.close();
+		}, 3000);
+	})
+})
+	
 
-//create an event listener that will watch my Gmail inbox
 
-app.get('/', (req, res) => gmailScript.data.checkInbox( function() {
-	console.log('Successfuly checked Gmail inbox!'); 
-}))
+
+
 
 
 

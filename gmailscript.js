@@ -2,10 +2,11 @@ var fs = require('fs');
 var readline = require('readline');
 var {google} = require('googleapis');
 var parser = require('./parseCVSOAP.js');
+var email = require('./sendEmail.js');
 
 var methods = {
 
-    checkInbox: function(callback) {
+    runParser: function(callback) {
 
         // If modifying these scopes, delete client_secret.json.
         var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
@@ -95,7 +96,7 @@ var methods = {
                                             if (err) return console.log('Error while writing to file: ' + err);
                                             //need to edit the base64 encoded string since Gmail's API returns the string with "-" and "_" where "+" and "/" should be, respectively
                                             fixAttachmentData(filename, function() {
-                                                //ocall parseRequest script from parseCV.js to parse CV and output into resumeOutput.json
+                                                //call parseRequest script from parseCV.js to parse CV and output into resumeOutput.json
                                                 // parser.data.parseRequest( function(err) {
                                                 //     if (err) return console.log('Could not parse the file: ' + err);
                                                 // });

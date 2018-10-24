@@ -15,5 +15,11 @@ Once "fixAttachmentData()" has returned and the attachmenet data has been reform
 
 The "parseRequest()" function found in "parseCVSOAP.js" creates a SOAP request and sends it to Hireability's resume parsing service. The response it receives is then written to "resumeOutput.json" and then writes important information to the console such as the first name, last name, phone number, and email address. 
 
-**IN PROGRESS**
-Lastly, the "sendMessage()" function found in "sendEmail.js" sends an email to the person who's resume was parsed to confirm that their resume has been received. 
+Lastly, we want to confirm to the person whose resume we have just parsed that we have received their information. To do this we send an email to them using the email address we parsed from their resume. In order to send an email using the Gmail API we need to create a MIME message which we will then encode in to a base64 encoded string. "createMimeMessage.py" is a python script that reads in "resumeOutput.json" to get the person's first name and email address. It then constructs a MIME message which it writes into "mime-message.txt". 
+
+"sendEmail.js" reads in "mime-message.txt" and encodes it as a base64 encoded string that we can use as a parameter for the Gmail API call to send an email. 
+
+We run the entire program on an Express web server in "app.js". In "app.js" we create the web server and once it is running (we know when this is by calling "app.listen") we run whatever script we want to run as a callback function. 
+
+IMPORTANT: the free trial account for Hireability is currently closed, so "app.js" is currently running "sendEmail.js" to show that the end result of sending an email to the applicant works given that all of the other programs work. 
+

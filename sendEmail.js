@@ -87,9 +87,6 @@ var methods = {
 		    	}, function(err, res) {
 		        if (err) return console.error(err);
 		        	console.log(res);
-		        	console.log("Message ID is: " + res.data.id);
-		        	// var messageID = res.data.id;
-		        	// sendDraft(gmail, messageID);
 		    	});
 			})
 		}
